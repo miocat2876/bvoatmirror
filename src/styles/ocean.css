@@ -1,0 +1,224 @@
+@charset "utf-8";
+::selection {
+  background-color: #fff239;
+  color: #292929;
+}
+
+::-moz-selection {
+  background-color: #fff239;
+  color: #292929;
+}
+
+body {
+  width: 100%;
+  min-width: 320px !important;
+}
+
+*,
+header,
+footer,
+section {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+a {
+  color: #292929;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  color: #0077c6;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+select,
+input[type='text'] {
+  outline: none;
+}
+
+select:hover,
+input[type='text']:hover {
+  border: 1px solid #0077c6;
+}
+
+.t08 {
+  font-size: 0.9em;
+}
+
+.t1 {
+  font-size: 1em;
+}
+
+.t13 {
+  font-size: 1.3em;
+}
+
+.t15 {
+  font-size: 1.5em;
+}
+
+.t18 {
+  font-size: 1.8em;
+}
+
+.t2 {
+  font-size: 2em;
+}
+
+.t23 {
+  font-size: 2.3em;
+}
+
+.t25 {
+  font-size: 2.3em;
+}
+
+.t28 {
+  font-size: 2.8em;
+}
+
+.t3 {
+  font-size: 3em;
+}
+
+.t33 {
+  font-size: 3.3em;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.bb {
+  font-weight: 900;
+}
+
+.tCenter {
+  text-align: center;
+}
+
+.tLeft {
+  text-align: left;
+}
+
+.tRight {
+  text-align: right;
+}
+
+/* */
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.rsW50 {
+  width: 50%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w60,
+.rsW60 {
+  width: 60%;
+}
+
+.w50,
+.rsW50 {
+  width: 50%;
+}
+
+.w40,
+.rsW40 {
+  width: 40%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.rsW60,
+.rsW50,
+.rsW40,
+.w100,
+.w90,
+.w80,
+.w70,
+.w60,
+.w50,
+.w40,
+.w30,
+.w20,
+.w10 {
+  float: left;
+}
+
+.pd10 {
+  padding: 10px;
+}
+
+.pd20 {
+  padding: 20px;
+}
+
+.gray {
+  color: #a6a6a6;
+}
+
+.blue {
+  color: #0077c6 !important;
+}
+
+col {
+  display: table-column;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .rsW40,
+  .rsW50,
+  .rsW60,
+  .w280,
+  .w100280 {
+    width: 100%;
+  }
+}
