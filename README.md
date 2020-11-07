@@ -1,5 +1,5 @@
-bvoat clone
+### bvoat clone project
 
-cd bvoat
-npm install
-npm start
+- cd bvoat
+- npm install
+- npm start
