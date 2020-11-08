@@ -1,0 +1,14 @@
+.size {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+img {
+  width: auto;
+  height: 100%;
+}
+
+.displayBox2 {
+  width: 100%;
+  display: inline-block;
+}

@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <>
       <header>
-        <div class="headerflex">
-          <div class="hd-logo img-w">
+        <div className="headerflex">
+          <div className="hd-logo img-w">
             <Link to="/">
               <img src="../images/logo_bvt_3.svg" alt="bvoat logo"></img>
             </Link>
           </div>
-          <ul class="headermenu">
+          <ul className="headermenu">
             <li>
               <Link to="/">
                 <img src="../images/console_search.svg" alt="search"></img>
