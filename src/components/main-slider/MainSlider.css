@@ -3,7 +3,7 @@
   justify-content: center;
   height: 500px;
 }
-img {
+.size img {
   width: auto;
   height: 100%;
 }
@@ -11,4 +11,13 @@ img {
 .displayBox2 {
   width: 100%;
   display: inline-block;
+}
+
+.midBanner {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.midBanner a img {
+  width: 40%;
 }
