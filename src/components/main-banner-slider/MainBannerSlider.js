@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import './MainSlider.css';
+import './MainBannerSlider.css';
 import '../../styles/element.css';
 import '../../styles/swiper.css';
-import '../../styles/ocean.css';
+import '../../styles/basic.css';
 
 const settings = {
   dots: true,
@@ -15,7 +15,7 @@ const settings = {
   autoplay: true,
 };
 
-const MainSlider = () => {
+const MainBannerSlider = () => {
   return (
     <>
       <div className="displayBox2">
@@ -55,4 +55,4 @@ const MainSlider = () => {
   );
 };
 
-export default MainSlider;
+export default MainBannerSlider;

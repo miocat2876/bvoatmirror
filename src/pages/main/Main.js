@@ -1,10 +1,11 @@
 import React from 'react';
-import MainSlider from '../../components/main-slider/MainSlider';
-
+import MainBannerSlider from '../../components/main-banner-slider/MainBannerSlider';
+import MainProductSlider from '../../components/main-product-slider/MainProductSlider';
 const Main = () => {
   return (
     <>
-      <MainSlider />
+      <MainBannerSlider />
+      <MainProductSlider />
     </>
   );
 };
