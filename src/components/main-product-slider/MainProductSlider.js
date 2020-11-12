@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MainProductCard from '../main-product-card/MainProductCard';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import '../../styles/basic.css';
 import '../../styles/element.css';
-import MainProductCard from '../main-product-card/MainProductCard';
 
 const MainProductSliderCard = () => {
   return (
@@ -17,9 +19,26 @@ const MainProductSliderCard = () => {
               <img className="pointimg" src="images/product_link.svg"></img>
             </Link>
           </div>
-          <div className="bvt-list-main">
-            <MainProductCard />
-          </div>
+          <Swiper
+            spaceBetween={5}
+            slidesPerView={3}
+            pagination={{
+              type: 'progressbar',
+            }}
+          >
+            <SwiperSlide>
+              <MainProductCard />
+            </SwiperSlide>
+            <SwiperSlide>
+              <MainProductCard />
+            </SwiperSlide>
+            <SwiperSlide>
+              <MainProductCard />
+            </SwiperSlide>
+            <SwiperSlide>
+              <MainProductCard />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>
