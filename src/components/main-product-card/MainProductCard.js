@@ -18,7 +18,10 @@ const MainProductCard = () => {
         <Link>
           <div className="resImg">
             <div class="imgWrapper">
-              <img src="/images/e8cf251a6325fc94af75cc6a5e1d0ea0.png"></img>
+              <img
+                src="/images/e8cf251a6325fc94af75cc6a5e1d0ea0.png"
+                alt="product-image"
+              ></img>
             </div>
           </div>
         </Link>

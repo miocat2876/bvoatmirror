@@ -1,0 +1,45 @@
+.bvt-list-best1,
+.bvt-list-best2,
+.bvt-list-best3,
+.bvt-list-best4,
+.bvt-list-best5 {
+  margin: 30px 0 10px 0;
+}
+
+.bvt-list-best1::before,
+.bvt-list-best2::before,
+.bvt-list-best3::before,
+.bvt-list-best4::before,
+.bvt-list-best5::before {
+  z-index: 5;
+  position: absolute;
+  font-size: 50px;
+  left: 10px;
+  top: 5px;
+  font-weight: 900;
+}
+
+.bvt-list-best1::before {
+  content: '1';
+  color: #0077c6;
+}
+
+.bvt-list-best2::before {
+  content: '2';
+  color: #549790;
+}
+
+.bvt-list-best3::before {
+  content: '3';
+  color: #b2dc6e;
+}
+
+.bvt-list-best4::before {
+  content: '4';
+  color: #dacb3a;
+}
+
+.bvt-list-best5::before {
+  content: '5';
+  color: #ffe966;
+}
