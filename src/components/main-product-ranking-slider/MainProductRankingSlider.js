@@ -6,7 +6,7 @@ import './MainProductRankingSlider.css';
 import '../../styles/basic.css';
 import '../../styles/element.css';
 
-const MainProductRankingSliderCard = () => {
+const MainProductRankingSlider = () => {
   return (
     <>
       <div className="displayBox">
@@ -58,4 +58,4 @@ const MainProductRankingSliderCard = () => {
   );
 };
 
-export default MainProductRankingSliderCard;
+export default MainProductRankingSlider;
