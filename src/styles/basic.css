@@ -287,6 +287,11 @@ aside {
   padding: 0 2.5px;
 }
 
+.bvt-list .bvt-list-review {
+  width: 30%;
+  float: left;
+}
+
 .bvt-list .bvt-list-curation {
   width: 50%;
   float: left;
@@ -386,6 +391,13 @@ aside {
 .bvt-list .price * {
   font-size: 18px !important;
   color: #0077c6 !important;
+}
+
+.bvt-list .thumbBox2 {
+  width: 100%;
+  overflow: hidden;
+  background-color: #eaeaea;
+  position: relative;
 }
 
 .bvt-list .thumbBox {

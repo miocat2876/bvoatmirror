@@ -11,10 +11,10 @@ const MainNewProductList = () => {
     <>
       <div className="displayBox">
         <div className="bvt-list main">
-          <div className="subTitle">비보트의 탑승객들은 뭘 사랑했을까..?</div>
+          <div className="subTitle">누구보다 빠르게, 남들과는 다르게</div>
           <div className="pointlink">
-            <div className="basicTitle">지난 한 주 사랑받았어요</div>
-            <div className="pointTitle">#가치소비보트</div>
+            <div className="basicTitle">띵동! 새로 입점된 트렌드</div>
+            <div className="pointTitle">#가치소비</div>
             <Link>
               <img className="pointimg" src="images/product_link.svg"></img>
             </Link>
