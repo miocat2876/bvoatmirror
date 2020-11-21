@@ -16,7 +16,11 @@ const MainNewProductList = () => {
             <div className="basicTitle">띵동! 새로 입점된 트렌드</div>
             <div className="pointTitle">#가치소비</div>
             <Link>
-              <img className="pointimg" src="images/product_link.svg"></img>
+              <img
+                className="pointimg"
+                src="images/product_link.svg"
+                alt="link-img"
+              ></img>
             </Link>
           </div>
           <ul>

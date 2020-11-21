@@ -13,7 +13,7 @@ const MainReviewCard = () => {
             <div class="imgWrapper">
               <img
                 src="/images/e8cf251a6325fc94af75cc6a5e1d0ea0.png"
-                alt="product-image"
+                alt="review-image1"
               ></img>
             </div>
           </div>
@@ -24,7 +24,7 @@ const MainReviewCard = () => {
           <div class="review-img">
             <img
               src="/images/e8cf251a6325fc94af75cc6a5e1d0ea0.png"
-              alt="review-image"
+              alt="review-image2"
             ></img>
           </div>
           <div class="review-title">
@@ -38,11 +38,13 @@ const MainReviewCard = () => {
           </div>
         </div>
         <div className="review-content">
-          <div>
-            <div className="rating-star"></div>
-            <div className="option-name"></div>
-            <div className="user-id"></div>
-            <div className="review-date"></div>
+          <div className="row">
+            <div className="rating-star">★★★★★</div>
+            <div className="option-name">매운떡볶이3EA+짜장떡볶이3EA</div>
+          </div>
+          <div className="row">
+            <div className="user-id">1528371*****</div>
+            <div className="review-date">2020년 11월 18일</div>
           </div>
         </div>
         <div className="review-text">
@@ -53,21 +55,6 @@ const MainReviewCard = () => {
           같아요. 재구매의사 충만합니다. 아! 배송도 진짜 빨랐어요.
         </div>
       </div>
-      {/* <div className="infoBox">
-        <div className="title">
-          <span>[무료배송] 베지가든 떡볶이 1박스</span>
-        </div>
-        <div class="desc">
-          <span>
-            골목 분식집에서 먹던 맛 그대로!
-            <br />
-            콜레스테롤, 트랜스지방 0% 비건 떡볶이
-          </span>
-        </div>
-        <div className="price">
-          <span>15,000원</span>
-        </div>
-      </div> */}
     </>
   );
 };

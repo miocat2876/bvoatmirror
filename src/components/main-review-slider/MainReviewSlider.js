@@ -15,16 +15,23 @@ const MainReviewSliderList = () => {
             <div className="basicTitle">채식이 맛있으면 반칙</div>
             <div className="pointTitle">#비건 #가치소비</div>
             <Link>
-              <img className="pointimg" src="images/product_link.svg"></img>
+              <img
+                className="pointimg"
+                src="images/product_link.svg"
+                alt="review"
+              ></img>
             </Link>
           </div>
           <Swiper
-            spaceBetween={5}
-            slidesPerView={3}
+            spaceBetween={7}
+            slidesPerView={5}
             pagination={{
               type: 'progressbar',
             }}
           >
+            <SwiperSlide>
+              <MainReviewCard />
+            </SwiperSlide>
             <SwiperSlide>
               <MainReviewCard />
             </SwiperSlide>

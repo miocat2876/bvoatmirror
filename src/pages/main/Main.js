@@ -5,6 +5,7 @@ import MainProductRankingSlider from '../../components/main-product-ranking-slid
 import MainNewProductList from '../../components/main-new-product-list/MainNewProductList';
 import MainBanner from '../../components/main-banner/MainBanner';
 import MainReviewSliderList from '../../components/main-review-slider/MainReviewSlider';
+import MainLogoSlider from '../../components/main-logo-slider/MainLogoSlider';
 const Main = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Main = () => {
       <MainNewProductList />
       <MainBanner />
       <MainReviewSliderList />
+      <MainLogoSlider />
     </>
   );
 };

@@ -16,7 +16,11 @@ const MainProductRankingSlider = () => {
             <div className="basicTitle">지난 한 주 사랑받았어요</div>
             <div className="pointTitle">#가치소비보트</div>
             <Link>
-              <img className="pointimg" src="images/product_link.svg"></img>
+              <img
+                className="pointimg"
+                src="images/product_link.svg"
+                alt="link-img"
+              ></img>
             </Link>
           </div>
           <Swiper

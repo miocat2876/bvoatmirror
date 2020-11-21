@@ -39,3 +39,44 @@
 .mr5 {
   margin-left: 5px;
 }
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.rating-star,
+.option-name,
+.user-id,
+.review-date {
+  color: #7b7b7b;
+  flex-basis: 50%;
+  font-size: 0.8rem;
+}
+
+.rating-star {
+  color: #007aff;
+}
+
+.option-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.review-text {
+  color: #7b7b7b;
+  font-size: 0.8rem;
+  padding: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  height: 3rem;
+  line-height: 1rem;
+}
