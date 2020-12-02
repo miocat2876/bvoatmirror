@@ -13,7 +13,7 @@ const Menu = () => {
                 <Link to="/">비보트 추천</Link>
               </div>
               <div className="swiper-slide swiper-slide-next">
-                <Link to="/">식품</Link>
+                <Link to="/ProductList">식품</Link>
               </div>
               <div className="swiper-slide">
                 <Link to="/">패션</Link>

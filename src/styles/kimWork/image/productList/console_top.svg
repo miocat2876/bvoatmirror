@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.795" height="43.795" viewBox="0 0 34.795 43.795">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="13" y="2" width="34.795" height="43.795" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="스크롤_그룹_1" data-name="스크롤 그룹 1" transform="translate(-13 -2)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <path id="Icon_awesome-location-arrow" data-name="Icon awesome-location-arrow" d="M37.455.294,2.422,16.349a4.051,4.051,0,0,0,1.617,7.76H18.861V38.826a4.089,4.089,0,0,0,7.815,1.605L42.846,5.646A4.189,4.189,0,0,0,37.455.294Z" transform="translate(0 30.506) rotate(-45)" fill="#0077c6"/>
+  </g>
+</svg>

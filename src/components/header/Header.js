@@ -15,13 +15,23 @@ const Header = () => {
           </div>
           <ul className="headermenu">
             <li>
-              <Link to="/">
+              <Link to="/search">
                 <img src="../images/console_search.svg" alt="search"></img>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/cart">
                 <img src="../images/console_cart.svg" alt="cart"></img>
+              </Link>
+            </li>
+            <li>
+              <Link to="/login">
+                <img src="../images/console_cart.svg" alt="login"></img>
+              </Link>
+            </li>
+            <li>
+              <Link to="/myPage">
+                <img src="../images/console_cart.svg" alt="myPage"></img>
               </Link>
             </li>
           </ul>
